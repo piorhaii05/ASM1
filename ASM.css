@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper {
+    max-width: 1300px;
+    margin: 0px auto;
+    background-color: rgb(20, 1, 37);
+}
+img{
+    max-width: 100%;
+}
+.thumb_logo{
+    text-align: center;
+}
+.thumb_logo img{
+    width: 50% ;
+}
+header {
+    display: flex;
+    height: 110px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 4px solid rgb(5, 5, 107);
+}
+.title{
+    display: flex;
+}
+.title li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.title li a:hover{
+    border-bottom: 4px solid rgb(5, 5, 107);
+}
+
+h1{
+    margin: 30px 0px    ;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 215, 183);
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.content1{
+    position: absolute;
+    margin-top: 190px;
+    list-style: none;
+    margin-left: 70px;
+    
+}
+
+.content .card .content1 a{
+    text-decoration: none;
+    color: rgb(241, 215, 183);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content .card .content1 a:hover{
+    text-decoration: underline;
+}
+.card{
+    margin: 0px 20px;
+}
+
+.thumb_content1 img{
+    border: 1px solid goldenrod;
+}
+.thumb_content1{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 50px;
+}
+.card1{
+    margin: 0px 50px;
+}
+.thumb_content2 img{
+    border: 1px solid goldenrod;
+}
+.thumb_content2{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+    
+.thumb_content2 img{
+    border: 1px solid goldenrod;
+}
+
+.content3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.card2{
+    margin: 0px 50px;
+}
+.thumb_content3 img{
+    border: 1px solid goldenrod;
+    height: 230px;
+    width: 225px;
+}
+
+.double_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.see_more{
+    text-align: right;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-right: 70px;
+    list-style: none;
+}
+.see_more a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.see_more a:hover{
+    text-decoration: underline;
+}
+.line{
+    height: 3px;
+    width: 100%;
+    background-color: goldenrod;
+    margin: 20px 0px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caption_footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(241, 215, 183);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.thumb_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.line1{
+    height: 1px;
+    background-color: grey;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+}
+.content_footer{
+    margin-top: 15px;
+}
+.content_footer1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.nav_footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.nav_footer li a{
+    text-decoration: none;
+    color: rgb(6, 6, 153);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_footer li a:hover{
+    text-decoration: underline;
+}
+.lr{
+    color: white;
+    margin: 0px 5px;
+}
+footer{
+    height: 300px;
+}
+
+
+    
